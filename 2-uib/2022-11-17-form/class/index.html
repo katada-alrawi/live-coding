@@ -8,9 +8,34 @@
     <title>Forms</title>
   </head>
   <body>
-    <form action="index.js" method="post">
+    <form action="index.js" method="get">
       <!-- GET -> URL -->
       <!-- POST -> JSON -->
+      <fieldset>
+        <legend>Your info</legend>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Please enter your first name"
+        />
+        <br />
+        <label for="lastname">
+          Last Name
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Please enter your last name"
+            required
+          />*
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Bank account</legend>
+      </fieldset>
+      <input type="submit" value="send" />
+      <input type="reset" value="clear" />
     </form>
   </body>
 </html>
