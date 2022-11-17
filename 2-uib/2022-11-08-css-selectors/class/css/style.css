@@ -88,6 +88,3 @@ tr:nth-child(5n) {
 tr:nth-child(1) :nth-child(n + 1):nth-child(-n + 2) {
   border: 3px dashed blue;
 }
-/* rem, em, in, cm, %, px */
-
-/* Hej, this is upstream */

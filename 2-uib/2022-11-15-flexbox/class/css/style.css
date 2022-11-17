@@ -1,0 +1,22 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap"); */
+/* Google fonts */
+@import url("./Kalam-Light.ttf");
+/* root */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body */
+body {
+  /* background-color: black; */
+  font-family: "Kalam", cursive;
+}
+/* Nav */
+ul {
+  /* rgba(0-255,0-255,0-255,0.4) */
+  background-color: rgba(251, 255, 22, 0.176);
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
