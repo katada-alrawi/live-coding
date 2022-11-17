@@ -1,0 +1,17 @@
+a
+{
+  color: blue;
+  text-decoration: none;
+}
+a:hover
+{
+color: red;
+font-weight: bold;
+text-decoration: line-through;
+}
+a:active
+{
+  color: green;
+  font-weight: none;
+  text-decoration: none;
+}
