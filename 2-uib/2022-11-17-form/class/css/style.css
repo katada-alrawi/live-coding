@@ -4,14 +4,53 @@
   box-sizing: border-box;
 }
 body {
+  font-family: Arial, Helvetica, sans-serif;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(247, 156, 0, 0.898);
 }
 form {
-  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 2;
+  border-radius: 2rem;
+  background-color: white;
   width: 50vw;
-  height: 50vh;
+  height: 45vh;
+}
+legend {
+  text-align: center;
+}
+legend img {
+  width: 3rem;
+  border-radius: 50%;
+  box-shadow: 3px 4px 3px gray;
+  position: relative;
+  top: -2vh;
+}
+legend h2 {
+  color: lightgray;
+  margin: 0.5rem;
+}
+/* inputs */
+input {
+  border-radius: 35px;
+  border: none;
+  background-color: rgb(237, 236, 236);
+  padding: 5px;
+  margin-bottom: 1.5rem;
+  width: 10rem;
+  height: 2rem;
+}
+input[type="submit"] {
+  background-color: rgba(247, 156, 0, 0.898);
+}
+a {
+  color: lightgray;
+  text-decoration: none;
 }
