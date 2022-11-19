@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width : 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    background-color:rgb(72, 91, 39)
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 40%;
+    border-radius: 10px;
+    background-color: beige;
+    width: 50vw;
+    height: 45vh;
+}
+legend {
+    text-align: center;
+}
+input {
+    border-radius: 50px;
+    border: none;
+    background-color:rgb(221, 236, 153);
+    padding: 1px;
+    margin-bottom: 10px;
+    width: 10rem;
+    height: 2rem;
+  }
+  input[type="submit"] {
+    background-color:rgb(115, 212, 86);
+  }
+  a {
+    color: rgba(247, 23, 23, 0.356);
+    text-decoration: none;
+  }
+  
