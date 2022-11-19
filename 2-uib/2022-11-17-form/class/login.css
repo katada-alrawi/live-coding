@@ -1,0 +1,31 @@
+html{
+    background-color: #EE4E34; 
+}
+div{
+    width: 200px;
+    height: 270px;
+    border: 2px solid rgb(0, 2, 128);
+    border-radius: 50px;
+    margin:auto;
+    padding: 70px;
+    background-color: #fcedda;
+}
+div div{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-image: url(glof.jpg);
+    border-radius: 10px;
+}
+fieldset{
+    width: 50px;
+    height: 250px;
+    margin: auto;
+    padding-top: ;
+    border-radius: 30px;background-color: #f4eee7;
+
+}
+input {
+    background-color: rgba(220, 131, 131, 0.306);
+}
