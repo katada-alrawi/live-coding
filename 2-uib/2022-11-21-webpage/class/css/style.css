@@ -16,6 +16,24 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+/* Menu */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav {
+  flex-grow: 2;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+header nav a {
+  text-decoration: none;
+}
 /* Logo */
 .logo {
   /* border: var(--border-value); */
@@ -33,19 +51,6 @@ body {
   font-size: 1.5em; /* em = 16 * 1.5 = 24 */
   font-family: "Pacifico", cursive;
 }
-/* Menu */
-header {
-  display: flex;
-  justify-content: flex-end;
-}
-header nav {
-  flex-grow: 2;
-}
-header nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-}
-header nav a {
-  text-decoration: none;
-}
+/* Main */
+
+/* Footer */
