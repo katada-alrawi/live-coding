@@ -96,6 +96,33 @@ header nav a {
   height: 40%;
   background-color: gray;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+.card .image-container {
+  flex-grow: 2;
+  border: 2px dashed red;
+  display: flex;
+  flex-direction: column;
+}
+.image-container :first-child {
+  /* ♡ */
+  /* Task 1 */
+  /* justify-self: flex-end;
+  align-self: flex-end; */
+}
+.image-container :last-child {
+  /* Dear */
+  background-color: red;
+  width: 3rem;
+}
+/* Task 2 */
+/* item-name */
+
+/* Task 3 */
+/* item-price */
 
 /* Footer */
 footer {
@@ -107,6 +134,7 @@ footer {
   flex-direction: column;
   background-color: lightgray;
 }
+/* footer menu */
 footer nav ul {
   display: flex;
   width: 100%;
