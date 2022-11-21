@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.4s;
 }
 :root {
   /* snack-case */
@@ -79,10 +81,12 @@ header nav a {
 }
 .products {
   display: flex;
+  justify-content: space-evenly;
+
   width: 50vw;
 }
 .products div {
-  width: 50%;
+  width: 40%;
   border-radius: 2px;
   background-color: gray;
   border: 2px dashed green;
