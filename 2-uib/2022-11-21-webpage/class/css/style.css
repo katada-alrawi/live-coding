@@ -7,11 +7,45 @@
 }
 :root {
   /* snack-case */
-  --boos-fav-color: orange;
+  --boos-color: orange;
+  --border-value: 2px dashed red;
 }
 /* body */
 body {
   font-family: "Montserrat", sans-serif;
   width: 100vw;
   height: 100vh;
+}
+/* Logo */
+.logo {
+  /* border: var(--border-value); */
+  flex-grow: 1;
+}
+/* .logo :nth-child(1)  -> .Be */
+.logo :first-child {
+  font-family: "Courier New", Courier, monospace, cursive;
+  font-weight: 900;
+  font-size: 2rem; /*  rem =  16px * 2 = 32 */
+}
+/* .logo :nth-child(2)  -> you */
+.logo :last-child {
+  color: var(--boos-color);
+  font-size: 1.5em; /* em = 16 * 1.5 = 24 */
+  font-family: "Pacifico", cursive;
+}
+/* Menu */
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav {
+  flex-grow: 2;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+header nav a {
+  text-decoration: none;
 }
