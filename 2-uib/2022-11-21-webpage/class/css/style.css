@@ -52,5 +52,39 @@ header nav a {
   font-family: "Pacifico", cursive;
 }
 /* Main */
-
+.main-container {
+  width: 100vw; /* view width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container article {
+  height: 75vh; /* view hight  */
+  border: var(--border-value);
+}
+.main-intro {
+  width: 50vw;
+  padding-top: 20vh;
+  color: black;
+  line-height: 5.5vh;
+  font-size: 1.5rem;
+}
+.main-intro h2 {
+  color: var(--boos-color);
+}
+.main-intro a {
+  color: var(--boos-color);
+  text-decoration: none;
+}
+.products {
+  display: flex;
+  width: 50vw;
+}
+.products div {
+  width: 50%;
+  border-radius: 2px;
+  background-color: gray;
+  border: 2px dashed green;
+}
 /* Footer */
