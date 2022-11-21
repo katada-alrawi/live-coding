@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+:root {
+  /* snack-case */
+  --boos-fav-color: orange;
+}
 /* body */
 body {
   font-family: "Montserrat", sans-serif;
