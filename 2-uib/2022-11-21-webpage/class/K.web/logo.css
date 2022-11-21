@@ -52,5 +52,37 @@ header nav a {
   font-family: "Pacifico", cursive;
 }
 /* Main */
+.main-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-container aricale{
+    height: 75vh;
+    border: var(--border-value);
+}
+main-intro {
+    padding-top: 20vh;
+    color: var(--boos-color);
+    line-height: 10vh;
+    font-size: 1,5rem;
 
+}
+.main-intro h2 {
+color: var(--boos-color);
+}
+.main-intro a{
+    color: var(--boos-color);
+    text-decoration: none;
+}
+.products {
+display: flex;
+}
+.products{
+    width: 50vw;
+    border: 2px;
+    background: ;
+}
 /* Footer */
