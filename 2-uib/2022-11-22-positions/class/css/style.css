@@ -1,0 +1,10 @@
+span {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid black;
+}
+span:nth-child(2) {
+  position: sticky;
+  top: 100px;
+  right: 30px;
+}
