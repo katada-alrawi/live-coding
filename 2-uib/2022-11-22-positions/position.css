@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    /* background-image: url(moon.jpg);
+    background-position: center;
+    background-size: cover
+    background-repeat:calc(100%);
+ */
+ background-image: linear-gradient(
+    rgb(150, 18, 211),
+    yellow);
+}
+
+span {
+    
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid rgb(239, 9, 9);
+}
+
+span:nth-child(2){
+   position: sticky;
+    top: 30px;
+    right: 30px;
+    background-color: blue;
+}
+span:nth-child(2):hover {
+    scale: 2;
+}
