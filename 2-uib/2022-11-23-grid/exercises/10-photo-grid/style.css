@@ -1,4 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(3, 200px); */
+  /* grid-template-columns: repeat(auto-fill, 200px); */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1ex;
+}
+
 img {
-    width: 100%;
-  }
-  
+  width: 100%;
+}
