@@ -2,9 +2,10 @@
 
 ## Smalltalk - Efficiency
 
-[Clean Code]()
-[VS-Code "Tips and Tricks"](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
-
+- Clean Code
+- [VS-Code "Tips and Tricks"](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+  - Extension "Live Preview" (by Microsoft)
+  
 # CSS-Grid
 
 ![Grid Example](./grid.png)
