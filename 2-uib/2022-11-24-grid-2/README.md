@@ -21,6 +21,8 @@
 - HTML form controls - `required`, `minlength` & `maxlength`, 
      `min` & `max`, `type`, `pattern` attributes
 - `:valid` and `:invalid` pseudoclasses
+
+### Further Reading
 - Controlled parameters with `<datalist>` and `<optgroup>`
 
 ## Links
