@@ -24,7 +24,6 @@
 - Controlled parameters with `<datalist>` and `<optgroup>`
 
 ## Links
+- [Browsereigene Validierung](https://wiki.selfhtml.org/wiki/HTML/Tutorials/Formulare/browsereigene_Validierung)
 
-- [Tutorial: CSS-Grid (DEU; selfhtml)](https://wiki.selfhtml.org/wiki/CSS/Tutorials/Grid)
-- [CSS Grid Layout (ENG; MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-- [CSS Grid Layout Module (w3schools)](https://www.w3schools.com/css/css_grid.asp)
+- [Neu in HTML5](https://wiki.selfhtml.org/wiki/HTML/Tutorials/Neu_und_obsolet_in_HTML5#Formulare)
