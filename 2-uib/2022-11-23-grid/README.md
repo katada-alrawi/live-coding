@@ -30,17 +30,6 @@
 - photo-gallery
 - given mockup as screenshot by designer (and some assets)
 
-## CSS Grid on child elements
-
-- Spanning over several columns:
-  `grid-column: [start] / [end];`, `span` keyword
-- Spanning over several rows: `grid-row: [start] / [end];`
-
-## Defining grid areas
-
-- Template areas: setting the parent with keywords, css `grid-template-areas`
-- Placing boxes in an area: css `grid-area`
-
 ## Links
 
 - [Tutorial: CSS-Grid (DEU; selfhtml)](https://wiki.selfhtml.org/wiki/CSS/Tutorials/Grid)
