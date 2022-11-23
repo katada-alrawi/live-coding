@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Grid-Intro</title>
+		<style>
+			body {
+				margin: 0;
+				display: grid;
+				/* Das Grid-Layout definiert drei Spalten. */
+				/* grid-template-columns: auto auto auto; */
+				/* grid-template-columns: 1fr 2fr 1fr; */
+				grid-template-columns: 10vw 2fr 1fr; /* 100vw => volle Breite
+				/* grid-template-columns: auto 2fr 1fr; */
+			}
+
+			div,
+			span {
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
+			temporibus.
+		</div>
+		<div>2</div>
+		<div>3</div>
+
+		<div>4</div>
+		<div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam illo nostrum consequatur iusto, officia eligendi quibusdam fugit aliquam ex dolores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam illo nostrum consequatur iusto, officia eligendi quibusdam fugit aliquam ex dolores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam illo nostrum consequatur iusto, officia eligendi quibusdam fugit aliquam ex dolores.</p>
+        </div>
+		<span>6</span>
+
+		<div>7</div>
+		<div>...</div>
+	</body>
+</html>
