@@ -1,0 +1,15 @@
+.container {
+  border: 5px solid black;
+  min-height: 80vh;
+}
+
+.item {
+  border: 5px solid lightskyblue;
+  text-align: center; 
+  font-size: 30px;
+  padding: 7px;
+}
+
+.item:nth-of-type(1) {
+  background-color: lightskyblue;
+}
