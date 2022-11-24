@@ -31,7 +31,7 @@ img5 {
 }
 img6 {
     grid-column: 1 / span 2;
-    grid-row: 3 /SPAN 2;
+    grid-row: 3 /span 2;
 }
 img7 {
     grid-column: 4;
@@ -58,7 +58,7 @@ header h1 {
 h1{
     grid-column: span 2;
 }
-h1, h2, h3 ,{
+h1, h2, h3 {
     font-size: smaller;
 }
 
