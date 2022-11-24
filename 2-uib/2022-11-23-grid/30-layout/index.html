@@ -45,13 +45,14 @@
 			}
 
 			footer {
-				grid-column: 2/-1; /* -1 => bis ganz hinten */
+				/* grid-column: 2/-1; /*-1 => bis ganz hinten */
+				grid-column-end: span 2;
 			}
 
 			nav {
 				background-color: lightgreen;
 
-				grid-row: 2/4;
+				grid-row: 2/span 2;
 			}
 
 			main {
