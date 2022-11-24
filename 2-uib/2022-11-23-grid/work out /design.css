@@ -1,6 +1,9 @@
 body {
-    font-size: 10px;
+    font-size: 1.3vw;
     font-family: sans-serif;
+    margin: 0;
+    padding: 1vw;
+
     display: grid;
     grid-template-columns: auto;
     gap: 1ex;  
@@ -8,40 +11,37 @@ body {
 .columns {
     display: grid;
     grid-template-columns:repeat(8, 11.4vw);
-    gap: 0.5em;
+    gap: 1vw;
 }
-img {
-    width: 100px;
-    height: 100px;
-}
+
 main{
-    grid-template-rows: repeat(4 ,12vw);
+    grid-template-rows: repeat(4, 11.4vw);
 }
-img3 {
+.img3 {
     grid-column: 7 / span 2;
     grid-row: 1 / span 2;
 }
-img4 {
+.img4 {
     grid-column: 3;
     grid-row: 2;
 }
-img5 {
+.img5 {
     grid-column: 5;
     grid-row: 2;
 }
-img6 {
+.img6 {
     grid-column: 1 / span 2;
     grid-row: 3 /span 2;
 }
-img7 {
+.img7 {
     grid-column: 4;
     grid-row: 3;
 }
-img8 {
+.img8 {
     grid-column: 6;
     grid-row: 3;
 }
-img9 {
+.img9 {
     grid-column: 7;
     grid-row: 4;
 }
@@ -49,20 +49,27 @@ img9 {
     font-style: italic;
     grid-column: 6;
 }
-header {
-    margin-bottom: -0.5vw;
-}
-header h1 {
-    padding-left: 1ex;
-}
-h1{
-    grid-column: span 2;
-}
 h1, h2, h3 {
     font-size: smaller;
+    margin: 0;
+}
+h1{
+    grid-column-end: span 2;
 }
 
 h3 {
     font-weight: normal;
 }
 
+header {
+    margin-bottom: -0.5vw;
+}
+header h1 {
+    padding-left: 1ex;
+}
+
+
+main img {
+    width: 100px;
+    height: 100px;
+}
