@@ -28,7 +28,7 @@
 - Concept of client side form validation
 - HTML form controls - `required`, `minlength` & `maxlength`,
   `min` & `max`, `type`, `pattern` attributes
-- `:valid` and `:invalid` pseudoclasses
+- pseudo-classes: `:valid` and `:invalid` 
 
 ### Further Reading
 
