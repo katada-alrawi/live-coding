@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+}
+
+form {
+    display: inline-block;
+}
+
+form>* {
+    display: block;
+    margin-bottom: 1ex;
+}
+
+.buttons {
+    border-top: 1px solid darkgrey;
+    padding-top: 1ex;
+    text-align: right;
+}
