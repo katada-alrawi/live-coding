@@ -1,0 +1,26 @@
+/* print */
+body {
+  background-color: orange;
+}
+h1 {
+  display: none;
+}
+@media print {
+  body {
+    background-color: pink;
+  }
+  /* DRY -> Don't repeat yourself */
+  .side-menu,
+  footer {
+    display: none;
+  }
+  h1 {
+    display: block;
+  }
+}
+/* Screen */
+@media only screen and (max-width: 450px) {
+  body {
+    background-color: red;
+  }
+}
