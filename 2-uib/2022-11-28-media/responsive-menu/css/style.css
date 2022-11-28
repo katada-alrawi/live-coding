@@ -52,6 +52,7 @@ nav li a{
     align-items: center;
     text-decoration: none;
 }
+/* attribute selector */
 nav input[type="checkbox"]{
     display: none;
 }
@@ -104,5 +105,4 @@ nav input[type="checkbox"]{
     #toggle-btn:checked ~ ul{
         display: block;
     }
-
 }
