@@ -16,6 +16,11 @@
   </head>
   <body>
     <header>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <nav class="side-menu">
         <ul>
           <li><a href="#">Start</a></li>
@@ -37,5 +42,19 @@
     <footer>
       <!-- iwas -->
     </footer>
+    <script>
+      // this is Javascript
+      let clicked = false;
+      document.querySelector(".hamburger").addEventListener("click", () => {
+        clicked = !clicked;
+        if (clicked) {
+          // true
+          document.querySelector(".side-menu").style.cssText = "display:block;";
+        } else {
+          // false
+          document.querySelector(".side-menu").style.cssText = "display:none;";
+        }
+      });
+    </script>
   </body>
 </html>
