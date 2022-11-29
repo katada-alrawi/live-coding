@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  animation-name: alive;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  background-color: #f44;
+  box-shadow: 5px 5px 20px gray;
+}
