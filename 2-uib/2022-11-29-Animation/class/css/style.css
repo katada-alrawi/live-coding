@@ -7,6 +7,26 @@
   /* some var */
   --the-best-color: orange;
 }
-/* step 1: animation name */
-/* step 2: animation for how long*/
+.box {
+  width: 3rem;
+  height: 4rem;
+  background-color: var(--the-best-color);
+  /* step 1: animation name */
+  animation-name: move;
+  /* step 2: animation for how long*/
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
 /* step 3: keyframes */
+@keyframes move {
+  0% {
+    width: 4rem;
+  }
+  50% {
+    width: 5rem;
+  }
+  100% {
+    width: 6rem;
+  }
+}
