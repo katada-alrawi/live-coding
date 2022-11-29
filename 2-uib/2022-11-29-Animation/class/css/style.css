@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* some var */
+  --the-best-color: orange;
+}
+/* step 1: animation name */
+/* step 2: animation for how long*/
+/* step 3: keyframes */
