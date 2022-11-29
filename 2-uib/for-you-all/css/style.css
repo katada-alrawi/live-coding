@@ -15,8 +15,33 @@ div {
   height: 5rem;
   position: relative;
   animation-name: alive;
-  animation-duration: 1.5s;
+  animation-duration: 1.2s;
   animation-iteration-count: infinite;
   background-color: #f44;
   box-shadow: 5px 5px 20px gray;
+}
+div::after,
+div::before {
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #f44;
+}
+div::before {
+  right: -40px;
+  /* background-color: blue; */
+}
+div::after {
+  top: -40px;
+  /* background-color: orange; */
+}
+@keyframes alive {
+  from {
+    transform: scale(1) rotate(-45deg);
+  }
+  to {
+    transform: scale(1.5) rotate(-45deg);
+  }
 }
