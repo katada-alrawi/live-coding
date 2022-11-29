@@ -22,11 +22,20 @@
 @keyframes move {
   0% {
     width: 4rem;
+    background-color: deeppink;
+  }
+  30% {
+    width: 5.5rem;
+    height: 6rem;
+    background-color: paleturquoise;
   }
   50% {
     width: 5rem;
+    height: 6rem;
+    background-color: lime;
   }
   100% {
     width: 6rem;
+    background-color: blue;
   }
 }
