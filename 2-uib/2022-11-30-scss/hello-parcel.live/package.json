@@ -1,7 +1,6 @@
 {
   "name": "hello-parcel.live",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Thomas",
   "license": "MIT",
   "scripts": {
@@ -9,6 +8,7 @@
     "build": "parcel build src/index.html"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "2.8.0",
     "parcel": "^2.8.0"
   }
 }
