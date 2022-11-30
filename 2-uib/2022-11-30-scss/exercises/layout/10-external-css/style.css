@@ -1,0 +1,56 @@
+body {
+    background-color: #555;
+    margin: 0;
+    font-family: sans-serif;
+
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: 1fr 3fr 2fr; /* 6 Teile (fraction: fr)*/
+
+    gap: 1ex; /* ex => Größe eines kleinen "x" */
+}
+
+body > * {
+    padding: 1rem; 
+    padding-top: 1.25rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    line-height: 1.25em;
+}
+
+header,
+footer {
+    background-color: grey;
+}
+
+header {
+    grid-column-start: 1; /* die Zahlen bezeichnen die Grenzen */
+    grid-column-end: -1;
+    /* grid-column: 1/4; */
+}
+
+footer {
+    /* grid-column: 2/-1; /*-1 => bis ganz hinten */
+    grid-column-end: span 2;
+}
+
+nav {
+    background-color: lightgreen;
+
+    grid-row: 2/span 2;
+}
+
+main {
+    background-color: lightblue;
+}
+
+aside {
+    background-color: orange;
+}
