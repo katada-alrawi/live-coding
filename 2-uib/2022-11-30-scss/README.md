@@ -79,12 +79,10 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 
 # install latest "Long Term Support" version of "node"
 nvm install --lts
+nvm list
 
 # install yarn (faster than npm)
-sudo npm install -g yarn
-
-nvm install --lts
-nvm list
+npm install -g yarn
 
 ```
 
