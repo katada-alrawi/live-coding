@@ -1,8 +1,41 @@
+$COLOR_FONT: green;
+$COLOR_BORDER: black;
+
+$COLOR_MAIN_BACKGROUND: darkgrey;
+
+$PADDING: 0.5rem;
+
 body {
     font-family: sans-serif;
-    text-decoration: underline;
-
-    color: red;
-
+    color: $COLOR_FONT;
     background-color: grey;
+
+    margin: 0;
+}
+
+nav {
+    padding: $PADDING;
+    border-bottom: 1px solid $COLOR_BORDER;
+}
+
+main {
+
+    $PADDING: 2em; // legt den Wert für Padding innerhalb von "main" fest
+
+    padding: $PADDING;
+    background-color: $COLOR_MAIN_BACKGROUND;
+    
+    h1 { /* CSS-Selektor: "main h1" */
+        text-decoration: underline;
+    }
+    
+    .warning {
+        color: red;
+    }
+}
+
+
+
+footer {
+    padding: $PADDING;
 }
