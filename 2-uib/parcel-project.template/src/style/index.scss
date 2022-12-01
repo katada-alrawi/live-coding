@@ -1,0 +1,13 @@
+$COLOR_FONT: #123;
+$COLOR_BACKGROUND: lightgrey;
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: $COLOR_BACKGROUND;
+    color: $COLOR_FONT;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
