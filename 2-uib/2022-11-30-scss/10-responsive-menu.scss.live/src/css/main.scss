@@ -1,7 +1,14 @@
-:root {
-    --background-color: #819768;
-    --accent-color: #9ead8d71;
-  }
+
+$background-color: #819768;
+$accent-color: #9ead8d71;
+
+@mixin flex-box-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
   * {
     margin: 0;
     padding: 0;
@@ -17,43 +24,55 @@
   
   /* navigation */
   nav {
-    background-color: var(--background-color);
+    background-color: $background-color;
     height: 3.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .logo {
+        margin-left: 2rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+    ul {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+
+        li {
+            height: 100%;
+            width: 6.5rem;
+
+            &:hover {
+                background-color: $accent-color;
+                transition: 0.4s ease-in-out;
+              }
+
+            a {
+                height: 100%;
+                width: 100%;
+                // das ist eine funktion, die werte siehe oben
+                @include flex-box-center();
+                // display: flex;
+                // justify-content: center;
+                // align-items: center;
+                
+                text-decoration: none;
+              }
+          }
+       
+      }
   }
-  
-  nav .logo {
-    margin-left: 2rem;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  nav ul {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-  }
-  nav ul li {
-    height: 100%;
-    width: 6.5rem;
-  }
-  nav ul li:hover {
-    background-color: var(--accent-color);
-    transition: 0.4s ease-in-out;
-  }
-  nav li a {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
+
+
+
+
   nav input[type="checkbox"] {
     display: none;
   }
@@ -84,20 +103,23 @@
     nav ul {
       height: min-content;
       width: 100%;
-      background-color: var(--background-color);
+      background-color: $background-color;
   
       /* display: block; */
       display: none;
       position: absolute;
       top: 3.5rem;
+
+      li {
+        height: min-content;
+        width: 100%;
+
+        a {
+            padding: 1.3rem 0;
+          }
+      }
     }
-    nav ul li {
-      height: min-content;
-      width: 100%;
-    }
-    nav li a {
-      padding: 1.3rem 0;
-    }
+
     /* check click on hamburgermenü */
     #toggle:checked~ul {
       display: block;
