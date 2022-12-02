@@ -37,6 +37,7 @@ div::after {
   top: -40px;
   /* background-color: orange; */
 }
+
 @keyframes alive {
   from {
     transform: scale(1) rotate(-45deg);

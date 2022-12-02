@@ -78,9 +78,11 @@
     </footer>
     <!-- JavaScript -->
     <script>
-      let span = document.getElementById("year");
+      // document.querySelector("#year").innerHTML = new Date().getFullYear();
+      let span = document.querySelector("#year");
       let currentYear = new Date().getFullYear();
-      span.innerHTML = currentYear;
+      span.innerHTML += currentYear;
+      console.log(window);
     </script>
   </body>
 </html>
