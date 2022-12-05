@@ -1,0 +1,10 @@
+@import "./var";
+@import "./mixins";
+body {
+  background-color: $bg-color;
+  @include flex-setup;
+  @include normal-setup;
+}
+.box {
+  @include flex-setup;
+}
