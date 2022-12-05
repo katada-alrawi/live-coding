@@ -1,10 +1,17 @@
 @import "./var";
 @import "./mixins";
+@import "./layout/_layout";
 body {
   background-color: $bg-color;
   @include flex-setup;
   @include normal-setup;
 }
-.box {
-  @include flex-setup;
-}
+// .box {
+//   @include box-size(5rem, 5rem);
+// }
+// .shape {
+//   @include box-size(3px, 12px);
+// }
+// .shape2 {
+//   @include box-size(5em, 100px);
+// }
